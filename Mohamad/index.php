@@ -23,7 +23,7 @@
 
 
     $player = ["Mark", " John", "Georg" ,"Lisa"];
-    echo "the third player in the team is $player[2] ";
+    echo "the third player in the team is $player[2]. ";
     ?>
 </body>
 </html>
