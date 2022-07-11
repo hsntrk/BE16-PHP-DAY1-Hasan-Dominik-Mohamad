@@ -11,15 +11,19 @@
 <body>
 
 <?php
-    $name4 = array ("disney"=>"https://cdn.pixabay.com/photo/2012/11/02/13/02/car-63930__480.jpg", "nintendo"=>"Super Mario", "dragonball"=>"Goku", "pokemon"=>"Pokemon");
-    // echo  $name4['disney'].', ', $name4['nintendo'].', ',$name4['dragonball'].', ',$name4['pokemon'];
+    $name = array (
+        "image"=>"https://cdn.pixabay.com/photo/2012/11/02/13/02/car-63930__480.jpg",
+        "model"=>"Audio",
+        "dragonball"=>"Goku",
+        "pokemon"=>"Pokemon"
+        );
     ?>
-<!-- <div id="result"></div> -->
+
 <div class="card" style="width: 18rem;">
-<img src=<?php echo $name4['disney']?> class="card-img-top" alt="...">
+<img src="<?php echo $name['image']?>" class="card-img-top" alt="...">
 <div class="card-body">
-  <h5 class="card-title">Cars</h5>
-  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  <h5 class="card-title"><?php echo $name['model'] ?></h5>
+  <p class="card-text">test.</p>
   <a href="#" class="btn btn-primary">Go somewhere</a>
 </div>
 </div>
