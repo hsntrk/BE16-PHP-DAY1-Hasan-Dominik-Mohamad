@@ -54,73 +54,74 @@
     ),
   );
   ?>
-  <div id="info" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-2">
-    <div class="col">
-      <div class="card" style="width: 18rem;">
-        <img src=<?= $cars['Audi_R8']["img"] ?> class="card-img-top" alt="...">
-        <div class="card-body">
-          <h3 class="card-title">Model: <?= $cars['Audi_R8']["model"] ?> </h3>
-          <h5 class="card-title">Production Year: <?php echo $cars['Audi_R8']["production-year"] ?></h5>
-          <h4 class="card-title">List Price: € <?php echo $cars['Audi_R8']["list-price"] ?></h4>
+  <div class="container-fluid m-4">
+    <div id="info" class="container-fluid m-4 row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-2">
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src=<?= $cars['Audi_R8']["img"] ?> class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Model: <?= $cars['Audi_R8']["model"] ?> </h3>
+            <h5 class="card-title">Production Year: <?php echo $cars['Audi_R8']["production-year"] ?></h5>
+            <h4 class="card-title">List Price: € <?php echo $cars['Audi_R8']["list-price"] ?></h4>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="col">
-      <div class="card" style="width: 18rem;">
-        <img src=<?= $cars['Audi_RS4']["img"] ?> class="card-img-top" alt="...">
-        <div class="card-body">
-          <h3 class="card-title">Model: <?= $cars['Audi_RS4']["model"] ?> </h3>
-          <h5 class="card-title">Production Year: <?php echo $cars['Audi_RS4']["production-year"] ?></h5>
-          <h4 class="card-title">List Price: € <?php echo $cars['Audi_RS4']["list-price"] ?></h4>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src=<?= $cars['Audi_RS4']["img"] ?> class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Model: <?= $cars['Audi_RS4']["model"] ?> </h3>
+            <h5 class="card-title">Production Year: <?php echo $cars['Audi_RS4']["production-year"] ?></h5>
+            <h4 class="card-title">List Price: € <?php echo $cars['Audi_RS4']["list-price"] ?></h4>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="col">
-      <div class="card" style="width: 18rem;">
-        <img src=<?= $cars['BMW 330i']["img"] ?> class="card-img-top" alt="...">
-        <div class="card-body">
-          <h3 class="card-title">Model: <?= $cars['BMW 330i']["model"] ?> </h3>
-          <h5 class="card-title">Production Year: <?php echo $cars['BMW 330i']["production-year"] ?></h5>
-          <h4 class="card-title">List Price: € <?php echo $cars['BMW 330i']["list-price"] ?></h4>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src=<?= $cars['BMW 330i']["img"] ?> class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Model: <?= $cars['BMW 330i']["model"] ?> </h3>
+            <h5 class="card-title">Production Year: <?php echo $cars['BMW 330i']["production-year"] ?></h5>
+            <h4 class="card-title">List Price: € <?php echo $cars['BMW 330i']["list-price"] ?></h4>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="col">
-      <div class="card" style="width: 18rem;">
-        <img src=<?= $cars['Audi TT']["img"] ?> class="card-img-top" alt="...">
-        <div class="card-body">
-          <h3 class="card-title">Model: <?= $cars['Audi TT']["model"] ?> </h3>
-          <h5 class="card-title">Production Year: <?php echo $cars['Audi TT']["production-year"] ?></h5>
-          <h4 class="card-title">List Price: € <?php echo $cars['Audi TT']["list-price"] ?></h4>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src=<?= $cars['Audi TT']["img"] ?> class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Model: <?= $cars['Audi TT']["model"] ?> </h3>
+            <h5 class="card-title">Production Year: <?php echo $cars['Audi TT']["production-year"] ?></h5>
+            <h4 class="card-title">List Price: € <?php echo $cars['Audi TT']["list-price"] ?></h4>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="col">
-      <div class="card" style="width: 18rem;">
-        <img src=<?= $cars['BMW M3']["img"] ?> class="card-img-top" alt="...">
-        <div class="card-body">
-          <h3 class="card-title">Model: <?= $cars['BMW M3']["model"] ?> </h3>
-          <h5 class="card-title">Production Year: <?php echo $cars['BMW M3']["production-year"] ?></h5>
-          <h4 class="card-title">List Price: € <?php echo $cars['BMW M3']["list-price"] ?></h4>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src=<?= $cars['BMW M3']["img"] ?> class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Model: <?= $cars['BMW M3']["model"] ?> </h3>
+            <h5 class="card-title">Production Year: <?php echo $cars['BMW M3']["production-year"] ?></h5>
+            <h4 class="card-title">List Price: € <?php echo $cars['BMW M3']["list-price"] ?></h4>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col">
-      <div class="card" style="width: 18rem;">
-        <img src=<?= $cars['Golf R32']["img"] ?> class="card-img-top" alt="...">
-        <div class="card-body">
-          <h3 class="card-title">Model: <?= $cars['Golf R32']["model"] ?> </h3>
-          <h5 class="card-title">Production Year: <?php echo $cars['Golf R32']["production-year"] ?></h5>
-          <h4 class="card-title">List Price: € <?php echo $cars['Golf R32']["list-price"] ?></h4>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src=<?= $cars['Golf R32']["img"] ?> class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Model: <?= $cars['Golf R32']["model"] ?> </h3>
+            <h5 class="card-title">Production Year: <?php echo $cars['Golf R32']["production-year"] ?></h5>
+            <h4 class="card-title">List Price: € <?php echo $cars['Golf R32']["list-price"] ?></h4>
+          </div>
         </div>
       </div>
     </div>
   </div>
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
