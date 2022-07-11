@@ -30,7 +30,7 @@
 <div class="card" style="width: 18rem;">
 <img src=<?php echo $name['car']['image']?> class="card-img-top" alt="...">
 <div class="card-body">
-  <h5 class="card-title"><?php echo $name['car']['model']?></h5>
+  <h5 class="card-title"><?= $name['car']['model']?></h5>
   <p class="card-text"><?php echo $name['car']['price'] . "€" ?></p>
   <p class="card-text"><?php echo $name['car']['dis']?></p>
   <a href="#" class="btn btn-primary"><?php echo $name['car']['btn']?></a>
